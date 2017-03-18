@@ -4,36 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Git repo</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
     <form method="POST" action="https://formspree.io/michalski.maciej94@gmail.com">
-        <label for="name">Imię i Nazwisko</label><br />
-        <input type="text" id="name" name="name" /><br />
+        <label for="name">Imię i Nazwisko</label>
+        <input type="text" id="name" name="name" />
 
-        <label for="email">Email</label><br />
-        <input type="text" id="email" name="_replyto" /><br />
+        <label for="email">Email</label>
+        <input type="text" id="email" name="_replyto" />
 
         <label for="phone">Numer telefonu</label><br />
-        <input type="number" id="phone" name="phone" /><br />
+        <input type="number" id="phone" name="phone" />
 
-        <label for="city">Miasto</label><br />
+        <label for="city">Miasto</label>
         <select id="city" name="city">
               <option value="gdansk">Gdańsk</option>
               <option value="krakow">Kraków</option>
               <option value="warszawa">Warszawa</option>
-        </select><br />
-        <input type="checkbox" id="checkbox" name="checkbox" />Wyrażam zgodę na wyrażenie zgody na wyrażenie zgody na wyrażenie zgody na wyrażenie zgody na wyrażenie zgody na zaznaczenie tego pola<br />
-
-        <label>Płeć</label><br />
-        <label for="male">Mężczyzna</label>
-        <input type="radio" name="gender" id="male" value="male"><br />
-        <label for="female">Kobieta</label>
-        <input type="radio" name="gender" id="female" value="female"><br />
-        <label for="message">Wiadomość</label><br />
-        <textarea rows="4" cols="50" id="message" name="message"></textarea><br />
-        <input type="submit" value="Send"><br />
+        </select>
+        <p>Wybierz płeć:</p>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male" name="gender">Mężczyzna</label><br />
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female" name="gender">Kobieta</label><br />
+        <label for="message">Wiadomość</label>
+        <textarea rows="4" cols="50" id="message" name="message"></textarea>
+        <input type="checkbox" id="checkbox" name="checkbox" />Wyrażam zgodę na przetwarzanie danych osobowych
+        <input type="submit" value="Send">
     </form>
 </body>
 

@@ -1,0 +1,55 @@
+body{
+    background-color: #213b50;
+}
+form {
+    color: #fff;
+    background-color: #213b50;
+}
+
+
+label {
+    display: block;
+}
+
+label[for="male"],
+label[for="female"] {
+    display: inline;
+}
+
+input:not([name="gender"]),
+select,{
+    height: 25px;
+}
+input:not([name="gender"]),
+select,
+textarea {
+    background-color: #2b4a64;
+    color: #fff;
+    border: 1px solid #2b4a64;
+    width: 300px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    background-color: #4e708c;
+    border: 1px solid #fff;
+    outline: none;
+}
+
+input[type="checkbox"] {
+    display: inline;
+    width: 10px;
+}
+
+textarea {
+    display: block;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 80px;
+    height: 40px;
+    font-size: 1.2em;
+    background-color: green;
+}
